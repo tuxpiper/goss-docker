@@ -1,7 +1,7 @@
 FROM alpine:3.4
-MAINTAINER Ahmed Elsabbahy <elsabbahyahmed@yahoo.com>
+LABEL maintainer="Ahmed Elsabbahy <elsabbahyahmed@yahoo.com>"
 
-ENV GOSS_VER v0.2.6
+ENV GOSS_VER v0.3.2
 ENV PATH=/goss:$PATH
 
 # Install goss
